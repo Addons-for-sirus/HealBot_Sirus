@@ -2395,6 +2395,50 @@ function HealBot_configClassHoT(class, race)
     else
         HealBot_Watch_HoT[HEALBOT_FOUNTAIN_OF_LIGHT]=nil
     end
+	-------------------------------------------SIRUS--------------------------------------------------
+    if hbClassHoTwatch[HEALBOT_HAND_OF_THE_GUARDIANS]==3 then
+        HealBot_Watch_HoT[HEALBOT_HAND_OF_THE_GUARDIANS]="A"
+    elseif hbClassHoTwatch[HEALBOT_HAND_OF_THE_GUARDIANS]==2 then
+        HealBot_Watch_HoT[HEALBOT_HAND_OF_THE_GUARDIANS]="C"
+    else
+        HealBot_Watch_HoT[HEALBOT_HAND_OF_THE_GUARDIANS]=nil
+    end
+    if hbClassHoTwatch[HEALBOT_TOUCH_OF_THE_TITANS]==3 then
+        HealBot_Watch_HoT[HEALBOT_TOUCH_OF_THE_TITANS]="A"
+    elseif hbClassHoTwatch[HEALBOT_TOUCH_OF_THE_TITANS]==2 then
+        HealBot_Watch_HoT[HEALBOT_TOUCH_OF_THE_TITANS]="C"
+    else
+        HealBot_Watch_HoT[HEALBOT_TOUCH_OF_THE_TITANS]=nil
+    end
+    if hbClassHoTwatch[HEALBOT_LIVING_BARRIER]==3 then
+        HealBot_Watch_HoT[HEALBOT_LIVING_BARRIER]="A"
+    elseif hbClassHoTwatch[HEALBOT_LIVING_BARRIER]==2 then
+        HealBot_Watch_HoT[HEALBOT_LIVING_BARRIER]="C"
+    else
+        HealBot_Watch_HoT[HEALBOT_LIVING_BARRIER]=nil
+    end
+    if hbClassHoTwatch[HEALBOT_LIVE_HUI]==3 then
+        HealBot_Watch_HoT[HEALBOT_LIVE_HUI]="A"
+    elseif hbClassHoTwatch[HEALBOT_LIVE_HUI]==2 then
+        HealBot_Watch_HoT[HEALBOT_LIVE_HUI]="C"
+    else
+        HealBot_Watch_HoT[HEALBOT_LIVE_HUI]=nil
+    end
+	if hbClassHoTwatch[HEALBOT_GODS_HAND_BUFF]==3 then
+        HealBot_Watch_HoT[HEALBOT_GODS_HAND_BUFF]="A"
+    elseif hbClassHoTwatch[HEALBOT_GODS_HAND_BUFF]==2 then
+        HealBot_Watch_HoT[HEALBOT_GODS_HAND_BUFF]="C"
+    else
+        HealBot_Watch_HoT[HEALBOT_GODS_HAND_BUFF]=nil
+    end
+	if hbClassHoTwatch[HEALBOT_GODS_HAND]==3 then
+        HealBot_Watch_HoT[HEALBOT_GODS_HAND]="A"
+    elseif hbClassHoTwatch[HEALBOT_GODS_HAND]==2 then
+        HealBot_Watch_HoT[HEALBOT_GODS_HAND]="C"
+    else
+        HealBot_Watch_HoT[HEALBOT_GODS_HAND]=nil
+    end
+	-------------------------------------------SIRUS--------------------------------------------------
 end
 
 function HealBot_Register_Events()

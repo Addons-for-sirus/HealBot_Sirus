@@ -170,6 +170,14 @@ HEALBOT_LIGHT_BEACON            = GetSpellInfo(53651);
 HEALBOT_SACRED_SHIELD           = GetSpellInfo(53601) or "Священный щит";
 HEALBOT_SACRED_CLEANSING        = GetSpellInfo(53551) or "Священное очищение";
 HEALBOT_LAY_ON_HANDS            = GetSpellInfo(27154) or "Возложение рук";
+-------------------------------------------SIRUS--------------------------------------------------
+HEALBOT_HAND_OF_THE_GUARDIANS   = GetSpellInfo(313104) or "Длань Хранителей(Валанир деф)";
+HEALBOT_TOUCH_OF_THE_TITANS     = GetSpellInfo(313106) or "Касание титанов(Валанир дамаг)";
+HEALBOT_LIVING_BARRIER          = GetSpellInfo(308159) or "Живой барьер";
+HEALBOT_LIVE_HUI                = GetSpellInfo(308157) or "Живой щит";
+HEALBOT_GODS_HAND_BUFF          = GetSpellInfo(304704) or "Божья длань(Бафф)";
+HEALBOT_GODS_HAND               = GetSpellInfo(319166) or "Божья длань";
+-------------------------------------------SIRUS--------------------------------------------------
 HEALBOT_IMPROVED_LAY_ON_HANDS   = GetSpellInfo(27154);  -- Improved didnt show icon - Aura has 'Lay On Hands' and id 27154 works.  Improved is GetSpellInfo(20234)
 HEALBOT_INFUSION_OF_LIGHT       = GetSpellInfo(53569);
 HEALBOT_HOLY_SHOCK              = GetSpellInfo(20473);

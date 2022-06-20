@@ -262,6 +262,8 @@ local HealBot_Racial_Debuff_Spells = {
   ["Naga"] = {},
   ["Nightborne"] = {},
   ["Eredar"] = {},
+  ["LightforgedDraenei"] = {},
+  ["ZandalariTroll"] = {},
 }
 
 local HealBot_Debuff_Types = {
@@ -3446,6 +3448,14 @@ local HealBot_Options_Class_HoTctlName_List = {
     [HEALBOT_INSPIRATION]=HEALBOT_PRIEST,
     [HEALBOT_PROTANCIENTKINGS]="ALL",
     [HEALBOT_FOUNTAIN_OF_LIGHT]="ALL",
+	-------------------------------------------SIRUS--------------------------------------------------
+    [HEALBOT_HAND_OF_THE_GUARDIANS]="ALL",
+    [HEALBOT_TOUCH_OF_THE_TITANS]="ALL",
+    [HEALBOT_LIVING_BARRIER]="ALL",
+    [HEALBOT_LIVE_HUI]="ALL",
+	[HEALBOT_GODS_HAND_BUFF]="ALL",                    --T4 Паладин
+	[HEALBOT_GODS_HAND]="ALL",                         --T4 Паладин
+	-------------------------------------------SIRUS--------------------------------------------------
     [HEALBOT_ANCESTRAL_FORTITUDE]=HEALBOT_SHAMAN,
     [HEALBOT_EARTHLIVING_WEAPON]=HEALBOT_SHAMAN,
     [HEALBOT_EARTH_SHIELD]=HEALBOT_SHAMAN,
