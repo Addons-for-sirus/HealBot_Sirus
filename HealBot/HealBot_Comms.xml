@@ -8,7 +8,7 @@
   <Frame name="HealBot_Error" toplevel="true" parent="UIParent"
       movable="true" enableMouse="true" enableKeyboard="false" hidden="true">
     <Size>
-      <AbsDimension x="750" y="580"/>
+      <AbsDimension x="1000" y="580"/>
     </Size>
     <Anchors>
       <Anchor point="TOPLEFT">
@@ -22,7 +22,7 @@
 		  <FontString name="HealBot_Error_Header" inherits="GameFontNormalLarge" text="HealBot">
 			<Anchors><Anchor point="TOP" relativePoint="TOP"><Offset><AbsDimension x="0" y="-15"/></Offset></Anchor></Anchors>
 		  </FontString>
-		  <FontString name="HealBot_Error_Header2" inherits="GameFontNormal" text="http://healbot.alturl.com">
+		  <FontString name="HealBot_Error_Header2" inherits="GameFontNormal" text="Аддоны для Sirus.su - Discord.gg/7cjU9xvcQY">
 			<Anchors><Anchor point="TOP" relativePoint="TOP"><Offset><AbsDimension x="0" y="-40"/></Offset></Anchor></Anchors>
 		  </FontString>
             <FontString name="HBIncHealsHeader" inherits="ChatFontNormal" text="HEALBOT_INFO_INCHEALINFO">
@@ -173,7 +173,7 @@
                 <Anchors><Anchor point="LEFT" relativeTo="HBAddonColHeader3" relativePoint="RIGHT"><Offset><AbsDimension x="45" y="0"/></Offset></Anchor></Anchors>
             </FontString>
             <FontString name="HBAddonColHeader5" inherits="ChatFontNormal" text="HEALBOT_INFO_COMMS">
-                <Anchors><Anchor point="LEFT" relativeTo="HBAddonColHeader4" relativePoint="RIGHT"><Offset><AbsDimension x="105" y="0"/></Offset></Anchor></Anchors>
+                <Anchors><Anchor point="LEFT" relativeTo="HBAddonColHeader4" relativePoint="RIGHT"><Offset><AbsDimension x="300" y="0"/></Offset></Anchor></Anchors>
             </FontString>
 								
             <FontString name="HBMod1Name1" inherits="GameFontNormalSmall"><Anchors><Anchor point="TOPLEFT" relativeTo="HBAddonColHeader1" relativePoint="BOTTOMLEFT"/></Anchors></FontString>

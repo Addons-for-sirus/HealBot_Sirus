@@ -85,7 +85,7 @@
 	<Frame name="HealBot_Options" toplevel="true" frameStrata="DIALOG" 
       movable="true" parent="UIParent" enableMouse="true" hidden="true">
 		<Size>
-			<AbsDimension x="495" y="555"/>
+			<AbsDimension x="535" y="555"/>
 		</Size>
 		<Anchors>
 			<Anchor point="CENTER">

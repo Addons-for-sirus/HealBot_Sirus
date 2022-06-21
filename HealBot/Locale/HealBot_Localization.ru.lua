@@ -1,7 +1,7 @@
 ﻿------------
 -- RUSSIAN --
 ------------
---Last update: 10.06.2010 - 09:35
+--Last update: 21.06.2022 - 17:00
 
 if (GetLocale() == "ruRU") then
 
