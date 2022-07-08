@@ -1,11 +1,11 @@
 ## Interface: 30300
 ## Title: HealBot
 ## Author: StrifeCUK, Apolexis
-## Notes: |@Version: 1@|Великолепный аддон для хила и лучшим образом подходит для любого Холи персонажа в WoW
+## Notes: |@Version: 2@|Великолепный аддон для хила и лучшим образом подходит для любого Холи персонажа в WoW
 ## SavedVariablesPerCharacter:  HealBot_Config
 ## SavedVariables: Healbot_Config_Skins, HealBot_Globals
 ## OptionalDeps: LibSharedMedia-3.0, LibHealComm-4.0, LibQuickHealth-2.0, LibTalentQuery-1.0
-## Version: 3.3.5.5
+## Version: 3.3.5.6
 
 embeds.xml
 
