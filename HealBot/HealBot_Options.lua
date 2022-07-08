@@ -262,7 +262,7 @@ local HealBot_Racial_Debuff_Spells = {
   ["Naga"] = {},
   ["Nightborne"] = {},
   ["Eredar"] = {},
-  ["LightforgedDraenei"] = {},
+  ["Lightforged"] = {},
   ["ZandalariTroll"] = {},
 }
 
