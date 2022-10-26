@@ -177,6 +177,7 @@ HEALBOT_LIVING_BARRIER          = GetSpellInfo(308159) or "Живой барье
 HEALBOT_LIVE_HUI                = GetSpellInfo(308157) or "Живой щит";
 HEALBOT_GODS_HAND_BUFF          = GetSpellInfo(304704) or "Божья длань(Бафф)";
 HEALBOT_GODS_HAND               = GetSpellInfo(319166) or "Божья длань";
+HEALBOT_RESIDUAL_RADIANCE       = GetSpellInfo(319540) or "Остаточное сияние";
 -------------------------------------------SIRUS--------------------------------------------------
 HEALBOT_IMPROVED_LAY_ON_HANDS   = GetSpellInfo(27154);  -- Improved didnt show icon - Aura has 'Lay On Hands' and id 27154 works.  Improved is GetSpellInfo(20234)
 HEALBOT_INFUSION_OF_LIGHT       = GetSpellInfo(53569);

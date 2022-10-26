@@ -2426,17 +2426,24 @@ function HealBot_configClassHoT(class, race)
     end
 	if hbClassHoTwatch[HEALBOT_GODS_HAND_BUFF]==3 then
         HealBot_Watch_HoT[HEALBOT_GODS_HAND_BUFF]="A"
-    elseif hbClassHoTwatch[HEALBOT_GODS_HAND_BUFF]==2 then
+    elseif hbClassHoTwatch[HEALBOT_GODS_HAND_BUFF]==2 and class==HealBot_Class_En[HEALBOT_PALADIN] then
         HealBot_Watch_HoT[HEALBOT_GODS_HAND_BUFF]="C"
     else
         HealBot_Watch_HoT[HEALBOT_GODS_HAND_BUFF]=nil
     end
 	if hbClassHoTwatch[HEALBOT_GODS_HAND]==3 then
         HealBot_Watch_HoT[HEALBOT_GODS_HAND]="A"
-    elseif hbClassHoTwatch[HEALBOT_GODS_HAND]==2 then
+    elseif hbClassHoTwatch[HEALBOT_GODS_HAND]==2 and class==HealBot_Class_En[HEALBOT_PALADIN] then
         HealBot_Watch_HoT[HEALBOT_GODS_HAND]="C"
     else
         HealBot_Watch_HoT[HEALBOT_GODS_HAND]=nil
+    end
+	if hbClassHoTwatch[HEALBOT_RESIDUAL_RADIANCE]==3 then
+        HealBot_Watch_HoT[HEALBOT_RESIDUAL_RADIANCE]="A"
+    elseif hbClassHoTwatch[HEALBOT_RESIDUAL_RADIANCE]==2 and class==HealBot_Class_En[HEALBOT_PALADIN] then
+        HealBot_Watch_HoT[HEALBOT_RESIDUAL_RADIANCE]="C"
+    else
+        HealBot_Watch_HoT[HEALBOT_RESIDUAL_RADIANCE]=nil
     end
 	-------------------------------------------SIRUS--------------------------------------------------
 end

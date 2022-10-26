@@ -3453,8 +3453,9 @@ local HealBot_Options_Class_HoTctlName_List = {
     [HEALBOT_TOUCH_OF_THE_TITANS]="ALL",
     [HEALBOT_LIVING_BARRIER]="ALL",
     [HEALBOT_LIVE_HUI]="ALL",
-	[HEALBOT_GODS_HAND_BUFF]="ALL",                    --T4 Паладин
-	[HEALBOT_GODS_HAND]="ALL",                         --T4 Паладин
+	[HEALBOT_GODS_HAND_BUFF]=HEALBOT_PALADIN,                    --T4 Паладин
+	[HEALBOT_GODS_HAND]=HEALBOT_PALADIN,                         --T4 
+	[HEALBOT_RESIDUAL_RADIANCE]=HEALBOT_PALADIN,       --T6 Паладин
 	-------------------------------------------SIRUS--------------------------------------------------
     [HEALBOT_ANCESTRAL_FORTITUDE]=HEALBOT_SHAMAN,
     [HEALBOT_EARTHLIVING_WEAPON]=HEALBOT_SHAMAN,
